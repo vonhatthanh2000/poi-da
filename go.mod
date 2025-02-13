@@ -3,10 +3,7 @@ module layerg-poi-da
 go 1.23.2
 
 require (
-	github.com/Masterminds/squirrel v1.5.4
 	github.com/gin-gonic/gin v1.10.0
-	github.com/google/uuid v1.4.0
-	github.com/google/wire v0.6.0
 	github.com/lib/pq v1.10.9
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/redis/go-redis/v9 v9.7.0
@@ -32,8 +29,6 @@ require (
 require (
 	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
-	github.com/lann/builder v0.0.0-20180802200727-47ae307949d0 // indirect
-	github.com/lann/ps v0.0.0-20150810152359-62de8c46ede0 // indirect
 	github.com/unicornultrafoundation/go-u2u v1.0.0-rc1.0.20241024081005-ff0e8a756acd
 )
 
@@ -70,7 +65,6 @@ require (
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
-	github.com/u2u-labs/go-layerg-common v0.0.0-20250109091249-7349bfc6fd3d
 	github.com/ugorji/go/codec v1.2.12 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/arch v0.8.0 // indirect

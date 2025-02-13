@@ -18,8 +18,8 @@ var cfgFile string
 var (
 	rootCmd = &cobra.Command{
 		Use:   "layerg-poi-da",
-		Short: "Start a crawler masterdb server",
-		Long:  `Start a crawler masterdb server.`,
+		Short: "Start a poi da server",
+		Long:  `Start a poi da server.`,
 		Run:   startApi,
 	}
 )
