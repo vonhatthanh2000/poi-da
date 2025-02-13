@@ -1,0 +1,27 @@
+server:
+  host: http://localhost
+  port: 8085
+  mode: dev
+
+database:
+  driver: postgres
+  url: postgres://postgres:password@localhost:5432/layerg-poi-da?sslmode=disable
+  name: layerg-poi-da
+  max_open_conns: 100
+  max_idle_conns: 10
+  conn_max_lifetime: 3600
+
+redis:
+  host: localhost
+  port: 6379
+  db: 0
+  password:
+  pool_size: 10
+
+logger:
+  log_level: debug
+  file_log_name: ./storages/logs/dev-log.txt
+  max_size: 100
+  max_backups: 3
+  max_age: 30
+  compress: true
